@@ -5,7 +5,9 @@ A nice site for Lee to display his work.
 
 ## Website To Do
 Content
-- contact page
+* the rest of the albums
+* contact page
+- add titles
 
 formatting
 * css file
@@ -15,6 +17,7 @@ formatting
 * credit on bottom
 - make albums stay at the same place
 - add an icon of Koda
+- spin a square, title on the back (but what about mobile)
 
 basic SEO
 - heading
