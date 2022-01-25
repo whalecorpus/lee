@@ -1,3 +1,7 @@
+:root {
+    --color: #edadb0;
+}
+
 body {
     background-color:white;
 }
@@ -9,10 +13,10 @@ body, div, td {
 }
 h1 {
     font-size: 24px;
-    color:#edadb0;
+    color: var(--color);
 }
 a {
-    color:#edadb0;
+    color: var(--color);
     text-decoration: none;
 }
 .menu {
@@ -23,7 +27,7 @@ a {
     margin: 4% 8%;
 }
 .avatarBox {
-    background-color: #edadb0;
+    background-color:  var(--color);
     border: 1px dotted black;
     margin: 4% 8%;
     padding: 2% 2%;
