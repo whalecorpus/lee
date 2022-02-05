@@ -1,3 +1,5 @@
+/* COLORS */
+
 :root {
     --color: hsl(240, 60%, 65%);
     --secondary-color: "#b6d6d0";
@@ -6,20 +8,31 @@
 body {
     background-color: var(--secondary-color);
 }
+
+/* BASE FONT */
 body, div, td {
     font-family: geneva,arial;
     font-size: 13px;
     line-height: 1.5;
-    color: white;
+    color:white;
 }
+
+/* LEE MEADVIN */
 h1 {
-    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    font-weight: 80;
     color: var(--color);
 }
+
+/* MENU FONT */
 a {
     color: var(--color);
+    font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
 }
+
+/* MENU SPACING */
 .menu {
     display: flex;
     flex-direction: row;
@@ -35,7 +48,7 @@ a {
     width: 50%;
     font-size: 1.25em;
 }
-span {
+#contact {
     padding-left: 1em;
 }
 .avatarBox {

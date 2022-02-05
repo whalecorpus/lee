@@ -3,14 +3,42 @@
 ## Vision
 A nice site for Lee to display his work.
 
-## Website To Do
+## Website To Do Part Two
+- background
+    - color less saturated
+    - gradient / some texture / not linear
+- title vs. credit
+    - more differentiation
+    - title should be bigger
+    - maybe shadow ? 
+    - try title on darkened album
+- about / contact buttons
+    * order switch
+    * font one size smaller
+    - buttons?
+- about / contact pages
+    - whole page is a box
+    - maybe background isn’t white / no box
+- fonts
+    - try out some of Lee's options
+    - possibly two
+- favicon
+- add picture
+- footer
+- copy button next to email address
+- fix justification
+
+- mobile formatting
+- don't jump the formatting after loading; have enough space somehow loaded already
+- load from javascript
+
+### Website To Do Part One
 Content
 * add titles
 * add About page
 * fix that some of the credits are wrong
 * the rest of the albums
 * contact page
-
 
 formatting
 * randomize color
@@ -40,6 +68,3 @@ dynamic
 hosting / dev ops
 - attach to custom domain
 - launch
-* pick a place to host
-* upload files
-* git init
