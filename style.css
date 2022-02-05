@@ -33,7 +33,7 @@ a {
     align-items: center;
     justify-content: flex-end;
     width: 50%;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 span {
     padding-left: 1em;
@@ -64,7 +64,14 @@ span {
     /* padding: 5px; */
     text-align: center;
 }
-.title, .work_description {
+.title {
+    color: white;
+    height: 30%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.work_description {
     color: white;
     height: 30%;
     margin: 0px;
