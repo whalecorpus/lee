@@ -1,12 +1,13 @@
 :root {
-    --color: #edadb0;
+    --color: hsl(240, 60%, 65%);
+    --secondary-color: "#b6d6d0";
 }
 
 body {
-    background-color:white;
+    background-color: var(--secondary-color);
 }
 body, div, td {
-    font-family: verdana,arial,sans-serif;
+    font-family: geneva,arial;
     font-size: 13px;
     line-height: 1.5;
     color: white;
@@ -26,12 +27,31 @@ a {
     justify-content: space-between;
     margin: 4% 8%;
 }
+.page_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    font-size: 1.5em;
+}
+span {
+    padding-left: 1em;
+}
 .avatarBox {
     background-color:  var(--color);
     border: 1px dotted black;
     margin: 4% 8%;
     padding: 2% 2%;
     text-align: center;
+}
+.aboutBox {
+    background-color:  var(--color);
+    border: 1px dotted black;
+    margin: 4% 8%;
+    padding: 2% 2%;
+    text-align: left;
+    font-size: 1.3em;
 }
 .col {
     font-size: 12px;
@@ -44,7 +64,7 @@ a {
     /* padding: 5px; */
     text-align: center;
 }
-.work_description {
+.title, .work_description {
     color: white;
     height: 30%;
     margin: 0px;
@@ -54,10 +74,14 @@ a {
 
 @media (max-width: 620px) {
     .work_description { display: none;}
+    .title { display: none;}
 }
 
 @media (min-width: 620px) {
     .work_description {
+        display: block;
+    }
+    .title {
         display: block;
     }
 }
