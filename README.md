@@ -7,11 +7,11 @@ A nice site for Lee to display his work.
 - background
     - color less saturated
     - gradient / some texture / not linear
-- title vs. credit
-    - more differentiation
+* title vs. credit
+    * more differentiation
     * title should be bigger
-    - maybe shadow ? 
-    - try title on darkened album
+    * maybe shadow ? 
+    * try title on darkened album
 - about / contact buttons
     * order switch
     * font one size smaller

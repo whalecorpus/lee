@@ -3,12 +3,35 @@
 :root {
     --color: rgb(104, 150, 177);
     --secondary-color: "#b6d6d0";
+    --gradient-color1: "white";
+    --gradient-color2: "#4D7A99";
 }
 
 body {
     background: linear-gradient(white 2%, #4D7A99 98%) no-repeat;
+    /* background: linear-gradient(white 30%, #4D7A99 0);
+    background-size: 100% 30px; */
+    
     background-size: cover;
     background-position: center;
+}
+
+.box {
+    background: linear-gradient(#4D7A99 2%, white 98%);
+    border: 1px dotted white;
+    margin: 4% 8% 0% 8%;
+    padding: 2% 2%;
+}
+
+.mainBox {
+    text-align: center;
+}
+
+.aboutBox {
+    text-align: left;
+    font-size: 1.3em;
+    height: 100vh
+
 }
 
 /* BASE FONT */
@@ -35,12 +58,12 @@ a {
 }
 
 /* MENU SPACING */
-.menu {
+footer, .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 4% 8%;
+    margin: 4% 8% 0% 8%;
 }
 .page_links {
     display: flex;
@@ -61,13 +84,6 @@ h2 {
     font-size: 32px;
     font-weight: 80;
 }
-.mainBox {
-    background: linear-gradient(#4D7A99 2%, white 98%);
-    border: 1px dotted white;
-    margin: 4% 8%;
-    padding: 2% 2%;
-    text-align: center;
-}
 .recordBox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -77,6 +93,11 @@ h2 {
     height: 95%;
     margin: 0px 5px 0px 5px;
 }
+.lee {
+    width: 85%;
+    margin: 0px 5px 0px 5px;
+}
+
 .title {
     color: white;
     font-size: 18px;
@@ -102,16 +123,6 @@ h2 {
     }
 }
 
-/* ABOUT PAGE */
-.aboutBox {
-    background-color:  var(--color);
-    border: 1px dotted black;
-    margin: 4% 8%;
-    padding: 2% 2%;
-    text-align: left;
-    font-size: 1.3em;
-}
-
 /* Record hover */
 /* img {
     vertical-align: bottom;
@@ -124,14 +135,14 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.65); /* maybe not a black filter */
+    background: rgba(0, 0, 0, 0.75); /* maybe not a black filter */
     color: #fff;
     visibility: hidden;
     opacity: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 96%;
+    width: 97%;
     height: 97%;
     margin: 0px 5px 0px 5px;
 }
@@ -154,3 +165,8 @@ h2 {
     padding-left: 3%;
     padding-right: 3%;
 }
+
+/* FOOTER */
+/* footer {
+    margin: 0% 8%
+} */
