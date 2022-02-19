@@ -11,8 +11,8 @@ body {
 
 /* BASE FONT */
 body, div, td {
-    font-family: geneva,arial;
-    font-size: 13px;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 15px;
     line-height: 1.5;
     color:white;
 }
@@ -30,6 +30,7 @@ a {
     color: var(--color);
     font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
+    font-weight: 80;
 }
 
 /* MENU SPACING */
@@ -51,7 +52,15 @@ a {
 #contact {
     padding-left: 1em;
 }
-.avatarBox {
+
+/* BOX */
+/* Records */
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-weight: 80;
+}
+.recordBox {
     background-color:  var(--color);
     border: 1px dotted black;
     margin: 4% 8%;
@@ -82,6 +91,7 @@ a {
     height: 30%;
     margin: 0px;
     padding: 0px;
+    font-size: 18px;
 }
 
 .work_description {

@@ -9,7 +9,7 @@ A nice site for Lee to display his work.
     - gradient / some texture / not linear
 - title vs. credit
     - more differentiation
-    - title should be bigger
+    * title should be bigger
     - maybe shadow ? 
     - try title on darkened album
 - about / contact buttons
@@ -22,15 +22,17 @@ A nice site for Lee to display his work.
 - fonts
     - try out some of Lee's options
     - possibly two
-- favicon
+* favicon
 - add picture
-- footer
+- footer (copyright?)
 - copy button next to email address
 - fix justification
+- different color when you highlight above it
 
 - mobile formatting
 - don't jump the formatting after loading; have enough space somehow loaded already
 - load from javascript
+- add icon ref: https://icons8.com/icons/set/guitar
 
 ### Website To Do Part One
 Content
