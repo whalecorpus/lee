@@ -2,10 +2,6 @@ var items = ["lightblue", "#66d6c3", "#8b66d6", "#d68b66", "#66b1d6", "#d666b1",
 var r = document.querySelector(':root');
 var rs = getComputedStyle(r);
 
-// get random color
-
-
-// r.style.setProperty('--color', 'lightblue');
+// get random color and set it to record box background
 var item = items[Math.floor(Math.random()*items.length)]
-console.log(item);
-r.style.setProperty('--color', item);
+// r.style.setProperty('--color', item);

@@ -26,7 +26,7 @@ A nice site for Lee to display his work.
 - add picture
 - footer (copyright?)
 - copy button next to email address
-- fix justification
+* fix justification
 - different color when you highlight above it
 
 - mobile formatting
@@ -70,3 +70,4 @@ dynamic
 hosting / dev ops
 - attach to custom domain
 - launch
+- what does the site look like if images fail to load?
