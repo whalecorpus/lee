@@ -71,3 +71,9 @@ hosting / dev ops
 - attach to custom domain
 - launch
 - what does the site look like if images fail to load?
+
+hover info:
+    - what about mobile?
+    - how to get it cover exactly?
+    - how to adjust font based on screen width
+    - accessibility considerations
