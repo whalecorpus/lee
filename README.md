@@ -3,6 +3,26 @@
 ## Vision
 A nice site for Lee to display his work.
 
+## Website To Do Part Three
+- small tweaks
+    * only two columns at a certain width
+    * hover
+        * parantheses around credit 
+        * credit smaller than title (title one bigger)
+        * everywhere should be a link
+        * adjust font based on screen width
+- background
+    - change
+        - Lee's thoughts: "gradient, some texture, not linear, color less saturated"
+    * no box in contact and about
+- color - go through some pallettes and offer to Lee
+- try it out / optional
+    - buttons for about and contact
+    - accessibility considerations
+- fun / out there
+    - copy button next to email address
+    - animated buttons when you hover over about & contact
+
 ## Website To Do Part Two
 - background
     - color less saturated
@@ -20,21 +40,31 @@ A nice site for Lee to display his work.
     - whole page is a box
     - maybe background isn’t white / no box
 - fonts
-    - try out some of Lee's options
-    - possibly two
+    * try out some of Lee's options
+    * possibly two
 * favicon
-- add picture
-- footer (copyright?)
+* add picture
+* footer (copyright?)
 - copy button next to email address
 * fix justification
-- different color when you highlight above it
+- different color when you highlight above it [I don't know what I meant by this]
 
 - mobile formatting
 - don't jump the formatting after loading; have enough space somehow loaded already
 - load from javascript
-- add icon ref: https://icons8.com/icons/set/guitar
+* add icon ref: https://icons8.com/icons/set/guitar
 
-### Website To Do Part One
+hover info:
+    * what about mobile?
+    * how to get it cover exactly? (this is an inexact tweak)
+    - adjust font based on screen width
+    - accessibility considerations
+    - parantheses around credit 
+    - credit smaller than title (title one bigger)
+    - everywhere should be a link
+
+
+## Website To Do Part One
 Content
 * add titles
 * add About page
@@ -72,8 +102,3 @@ hosting / dev ops
 - launch
 - what does the site look like if images fail to load?
 
-hover info:
-    - what about mobile?
-    - how to get it cover exactly?
-    - how to adjust font based on screen width
-    - accessibility considerations

@@ -9,21 +9,18 @@
 
 body {
     background: linear-gradient(white 2%, #4D7A99 98%) no-repeat;
-    /* background: linear-gradient(white 30%, #4D7A99 0);
-    background-size: 100% 30px; */
-    
     background-size: cover;
     background-position: center;
 }
 
 .box {
-    background: linear-gradient(#4D7A99 2%, white 98%);
-    border: 1px dotted white;
     margin: 4% 8% 0% 8%;
     padding: 2% 2%;
 }
 
 .mainBox {
+    background: linear-gradient(#4D7A99 2%, white 98%);
+    border: 1px dotted white;
     text-align: center;
 }
 
@@ -109,25 +106,29 @@ h2 {
 }
 
 
-@media (max-width: 620px) {
+@media (max-width: 840px) {
     .work_description { display: none;}
     .title { display: none;}
+    .recordBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-@media (min-width: 620px) {
+@media (min-width: 840px) {
     .work_description {
         display: block;
     }
     .title {
         display: block;
     }
+    .recordBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 /* Record hover */
-/* img {
-    vertical-align: bottom;
-} */
-
 .record-work-layer {
     /* display: none; */
     position: absolute;
@@ -160,10 +161,16 @@ h2 {
 .record-work {
     font-family: "Rajdhani", sans-serif;
     color: white;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 200;
     padding-left: 3%;
     padding-right: 3%;
+}
+.credit {
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+    font-size: 0.85em;
+    font-weight: 100;
 }
 
 /* FOOTER */
