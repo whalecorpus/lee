@@ -15,6 +15,10 @@ A nice site for Lee to display his work.
     - change
         - Lee's thoughts: "gradient, some texture, not linear, color less saturated"
     * no box in contact and about
+- accessibility / loading
+    * alttext
+    - no images still means page holds shape
+    - default font if google fonts can't be fetched
 - color - go through some pallettes and offer to Lee
 - try it out / optional
     - buttons for about and contact
@@ -22,6 +26,11 @@ A nice site for Lee to display his work.
 - fun / out there
     - copy button next to email address
     - animated buttons when you hover over about & contact
+
+- later (productionalization)
+    - test on different browsers
+    - speed test between serving images myself (and they can be smaller) vs fetching from bandcamp
+    - what are the security risks
 
 ## Website To Do Part Two
 - background
