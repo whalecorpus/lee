@@ -1,41 +1,41 @@
 /* COLORS */
 
 :root {
-    --color: rgb(104, 150, 177);
+    --color: #4D6981;
     --secondary-color: "#b6d6d0";
-    --gradient-color1: "white";
-    --gradient-color2: "#4D7A99";
+    --gradient-color1: "#fffed6";
+    --gradient-color2: "#4D6981";
 }
 
 body {
-    background: linear-gradient(white 2%, #4D7A99 98%) no-repeat;
+    background:url("img/parchment.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .box {
     margin: 4% 8% 0% 8%;
-    padding: 2% 2%;
 }
 
 .mainBox {
-    background: linear-gradient(#4D7A99 2%, white 98%);
-    border: 1px dotted white;
+    background: linear-gradient(#4D6981 2%, #A2B1BE 98%);
+    border: 1px dotted #fffed6;
     text-align: center;
+    padding: 2% 2%;
 }
 
 .aboutBox {
     text-align: left;
     font-size: 1.3em;
-    height: 100vh
-
+    height: 100vh;
+    color: var(--color);
 }
 
 /* BASE FONT */
 body, div, td {
     font-family: "Rajdhani", sans-serif;
     font-size: 15px;
-    color:white;
+    color:#fffed6;
 }
 
 /* LEE MEADVIN */
@@ -47,7 +47,7 @@ h1 {
 }
 
 /* MENU FONT */
-a {
+.menu-link {
     color: var(--color);
     font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
@@ -62,6 +62,14 @@ footer, .menu {
     justify-content: space-between;
     margin: 4% 8% 0% 8%;
 }
+
+.menu {
+    color: var(--color);
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    font-weight: 80;
+}
+
 .page_links {
     display: flex;
     flex-direction: row;
@@ -91,12 +99,14 @@ h2 {
     margin: 0px 5px 0px 5px;
 }
 .lee {
-    width: 85%;
-    margin: 0px 5px 0px 5px;
+    display: block;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
-    color: white;
+    color: #fffed6;
     font-size: 18px;
     font-weight: 200;
 }
@@ -160,7 +170,7 @@ h2 {
 
 .record-work {
     font-family: "Rajdhani", sans-serif;
-    color: white;
+    color: #fffed6;
     font-size: 1.3em;
     font-weight: 200;
     padding-left: 3%;
@@ -168,12 +178,7 @@ h2 {
 }
 .credit {
     font-family: "Rajdhani", sans-serif;
-    color: white;
+    color: #fffed6;
     font-size: 0.85em;
     font-weight: 100;
 }
-
-/* FOOTER */
-/* footer {
-    margin: 0% 8%
-} */

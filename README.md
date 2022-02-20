@@ -12,7 +12,7 @@ A nice site for Lee to display his work.
         * everywhere should be a link
         * adjust font based on screen width
 - background
-    - change
+    * change
         - Lee's thoughts: "gradient, some texture, not linear, color less saturated"
     * no box in contact and about
 - accessibility / loading
@@ -31,6 +31,7 @@ A nice site for Lee to display his work.
     - test on different browsers
     - speed test between serving images myself (and they can be smaller) vs fetching from bandcamp
     - what are the security risks
+    - check for font contrast: coolers contrast checker
 
 ## Website To Do Part Two
 - background
