@@ -33,7 +33,7 @@ body {
 
 /* BASE FONT */
 body, div, td {
-    font-family: "Rajdhani", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 15px;
     color:#fffed6;
 }
@@ -172,7 +172,6 @@ h2 {
     font-family: "Rajdhani", sans-serif;
     color: #fffed6;
     font-size: 1.3em;
-    font-weight: 200;
     padding-left: 3%;
     padding-right: 3%;
 }
