@@ -1,11 +1,7 @@
 /* COLORS */
-
 :root {
     --blue: #4D6981;
     --off-white: #fffed6;
-    --secondary-color: "#b6d6d0";
-    --gradient-color1: "#fffed6";
-    --gradient-color2: "#4D6981";
 }
 
 body {
@@ -53,7 +49,7 @@ h1 {
     font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
     font-weight: 80;
-    font-size: 1.25em;
+    font-size: 1.75em;
 }
 
 /* MENU SPACING */
@@ -112,13 +108,12 @@ h2 {
 
 /* Record hover */
 .record-work-layer {
-    /* display: none; */
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.75); /* maybe not a black filter */
+    background: rgba(0, 0, 0, 0.75);
     font-family: "Rajdhani", sans-serif;
     color: var(--off-white);
     visibility: hidden;
@@ -151,16 +146,25 @@ h2 {
     font-weight: 100;
 }
 
-
+@media (pointer: coarse) {
+    .record-work-layer {
+        background: rgba(66, 72, 50, 0.65);
+        /* background: rgba(167, 144, 71, 0.65); */
+        opacity: 1;
+        visibility: visible;
+    }
+}
 
 /* SOME MOBILE TWEAKS */
-
 @media screen and (max-width: 600px) {
     .recordBox {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    h1 {
+    .menu-link {
+        font-size: 1.75em;
+    }
+    h1, .home {
         font-size: 40px;
     }
     h2 {
@@ -183,16 +187,24 @@ h2 {
     }
 }
 
-/* really small screens */
+/* even smaller screens */
 @media screen and (max-width: 400px) {
-
-    h1 {
+    .menu-link {
+        font-size: 1.5em;
+    }
+    h1, .home {
         font-size: 32px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .record-work {
+        font-size: 0.8em;
+    }
+    .credit {
+        font-size: 0.8em;
     }
     .waalsh {
         display: none;
-    }
-    h2 {
-        font-size: 30px;
     }
 }
