@@ -29,9 +29,22 @@ A nice site for Lee to display his work.
 
 - later (productionalization)
     - test on different browsers
-    - speed test between serving images myself (and they can be smaller) vs fetching from bandcamp
+    x speed test between serving images myself (and they can be smaller) vs fetching from bandcamp
     - what are the security risks
     - check for font contrast: coolers contrast checker
+
+    * a little smaller picture
+    * different icon?
+    * hover on mobile
+    * more readability on mobile (esp Contact & About)
+    * 2 across on mobile
+    - get about & contact to be on the same line as Lee Meadvin
+
+
+    / mobile ideas
+        - leave greyed originally and then can click
+        - just the title is a link (and formatted like a link)
+        - first click brings it up, second click is link
 
 ## Website To Do Part Two
 - background
