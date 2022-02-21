@@ -1,7 +1,8 @@
 /* COLORS */
 
 :root {
-    --color: #4D6981;
+    --blue: #4D6981;
+    --off-white: #fffed6;
     --secondary-color: "#b6d6d0";
     --gradient-color1: "#fffed6";
     --gradient-color2: "#4D6981";
@@ -19,7 +20,7 @@ body {
 
 .mainBox {
     background: linear-gradient(#4D6981 2%, #A2B1BE 98%);
-    border: 1px dotted #fffed6;
+    border: 1px dotted var(--off-white);
     text-align: center;
     padding: 2% 2%;
 }
@@ -28,14 +29,14 @@ body {
     text-align: left;
     font-size: 1.3em;
     height: 100vh;
-    color: var(--color);
+    color: var(--blue);
 }
 
 /* BASE FONT */
 body, div, td {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 15px;
-    color:#fffed6;
+    color: var(--off-white);
 }
 
 /* LEE MEADVIN */
@@ -43,15 +44,16 @@ h1 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 48px;
     font-weight: 80;
-    color: var(--color);
+    color: var(--blue);
 }
 
 /* MENU FONT */
 .menu-link {
-    color: var(--color);
+    color: var(--blue);
     font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
     font-weight: 80;
+    font-size: 1.25em;
 }
 
 /* MENU SPACING */
@@ -64,7 +66,7 @@ footer, .menu {
 }
 
 .menu {
-    color: var(--color);
+    color: var(--blue);
     font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
     font-weight: 80;
@@ -76,7 +78,6 @@ footer, .menu {
     align-items: center;
     justify-content: flex-end;
     width: 50%;
-    font-size: 1.25em;
 }
 #contact {
     padding-left: 1em;
@@ -86,13 +87,10 @@ footer, .menu {
 /* Records */
 h2 {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 80;
 }
-.recordBox {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 .record-cover {
     width: 95%;
     height: 95%;
@@ -100,38 +98,12 @@ h2 {
 }
 .lee {
     display: block;
-    width: 74%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.title {
-    color: #fffed6;
-    font-size: 18px;
-    font-weight: 200;
-}
-
-.work_description {
-    color: rgb(14, 12, 12);
-}
-
-
-@media (max-width: 840px) {
-    .work_description { display: none;}
-    .title { display: none;}
-    .recordBox {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 840px) {
-    .work_description {
-        display: block;
-    }
-    .title {
-        display: block;
-    }
+@media all and (min-width: 601px) {
     .recordBox {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -147,7 +119,8 @@ h2 {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.75); /* maybe not a black filter */
-    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    color: var(--off-white);
     visibility: hidden;
     opacity: 0;
     display: flex;
@@ -169,15 +142,57 @@ h2 {
 }
 
 .record-work {
-    font-family: "Rajdhani", sans-serif;
-    color: #fffed6;
     font-size: 1.3em;
     padding-left: 3%;
     padding-right: 3%;
 }
 .credit {
-    font-family: "Rajdhani", sans-serif;
-    color: #fffed6;
     font-size: 0.85em;
     font-weight: 100;
+}
+
+
+
+/* SOME MOBILE TWEAKS */
+
+@media screen and (max-width: 600px) {
+    .recordBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    .box {
+        margin: 4% 4% 0% 4%;
+    }
+    .record-work {
+        font-size: 1em;
+    }
+    .credit {
+        font-size: 0.8em;
+    }
+    footer, .menu {
+        margin: 4% 4% 0% 4%;
+    }
+    .lee {
+        width: 85%;
+    }
+}
+
+/* really small screens */
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 32px;
+    }
+    .waalsh {
+        display: none;
+    }
+    h2 {
+        font-size: 30px;
+    }
 }
