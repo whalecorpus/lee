@@ -192,6 +192,9 @@ h2 {
     .lee {
         width: 85%;
     }
+    #Koda {
+        display: none;
+    }
 }
 
 /* even smaller screens */
@@ -211,7 +214,7 @@ h2 {
     .credit {
         font-size: 0.8em;
     }
-    .waalsh {
+    .waalsh, #Koda {
         display: none;
     }
 }
