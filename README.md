@@ -1,5 +1,5 @@
 # Lee's website
 
 ## Vision
-A nice site for Lee to display his work.
+A nice site for Lee to display his work at leemeadvin.com
 
